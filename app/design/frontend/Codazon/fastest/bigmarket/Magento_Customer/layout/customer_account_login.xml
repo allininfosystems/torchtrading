@@ -14,6 +14,7 @@
                 <block class="Magento\Customer\Block\Form\Login" name="customer_form_login" template="Magento_Customer::form/login.phtml">
                     <container name="form.additional.info" as="form_additional_info"/>
                 </block>
+				<block class="Mageplaza\SocialLogin\Block\Popup\Social"  name="social-login-popup-authentication-social-login" template="Mageplaza_SocialLogin::form/social.phtml" />
                 <block class="Magento\Customer\Block\Form\Login\Info" name="customer.new" template="Magento_Customer::newcustomer.phtml"/>
             </container>
             <block class="Magento\Cookie\Block\RequireCookie" name="require-cookie" template="Magento_Cookie::require_cookie.phtml">
